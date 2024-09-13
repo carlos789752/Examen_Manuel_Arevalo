@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://pymstatic.com/34119/conversions/tipos-de-clima-wide_webp.webp') no-repeat center center fixed;
+    
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px; /* Esquinas más redondeadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px; /* Ancho máximo para la caja */
+    width: 100%;
+}
+
+input {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    width: calc(100% - 130px); /* Ajustar el ancho para el espacio del botón */
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Color verde más natural */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px; /* Tamaño de fuente mayor para mejor visibilidad */
+    color: #333; /* Color de texto más oscuro para contraste */
+}
